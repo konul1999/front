@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+}
+
+.website-info {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.website-info h3 {
+    width: 41%;
+}
+
+.website-info .website-logo,
+.cart-img {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .my-products,
+.text,
+.checkout-btn {
+    width: 33%;
+}
+
+.checkout-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    background-color: #edb4c7;
+    width: 19%;
+}
+
+.sidebar hr {
+    width: 80%;
+}
+
+.sidebar ul {
+    list-style: none;
+
+}
+
+.sidebar ul li {
+    font-size: 20px;
+    font-weight: bold;
+    color:#000000;
+}
+
+.content {
+    width: 78%;
+   
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.product {
+    width: 24%;
+    background-color: #c19484;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.product hr {
+    width: 80%;
+}
+
+.product-name {
+    text-align: start;
+}
+
+.add-checkout-btn {
+    padding: 12px;
+    background: red;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-desc {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
